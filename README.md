@@ -1,5 +1,5 @@
-# memoization
-Memoization in Dynamic Programming: replace the inefficient recursion
+##### Dynamic Programming
+Dynamic Programming: replace the inefficient recursion
 
 (more a way of thinking than writing code)
 
