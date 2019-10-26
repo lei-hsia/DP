@@ -1,3 +1,7 @@
+// 1. 这样分阶段实际上把问题变得非常清晰，也很麻烦; 但是at most k transactions的时候好处就出来了
+// 2. max()函数自身迭代的时候，首先要f[i][j]自己赋值一个，因为Max函数有一位就是自己本身
+// 3. 判断Integer.MIN_VALUE的时候，并不需要判断f[i][j]那个, 因为实际上仔细分析一下，这个肯定是有定义的, 并不会落到Integer.MIN_VALUE对应的那个里面
+
 public class Solution {
     /**
      * @param prices: Given an integer array
