@@ -45,7 +45,6 @@ approach:
 - 类似序列型dp, 但是通常要加上段数信息; e.g. best time to buy sell stocks;
 - 一般用```f[i][j]```记录前i个元素(元素```0 ~ i-1```分成j段的性质, e.g. minCost;
 
-
-
-
+只要是求min/max: ```int[] f = new int[n+1];```
+如果是划分成```K```段, etc. 需要记录```K```的状态的; 需要开一维记录; ```int[][] f```
 
