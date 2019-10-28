@@ -48,3 +48,4 @@ approach:
 只要是求min/max: ```int[] f = new int[n+1];```
 如果是划分成```K```段, etc. 需要记录```K```的状态的; 需要开一维记录; ```int[][] f```
 
+**划分型dp一定是有group/partition, 并且有"连续的"这个意思**
