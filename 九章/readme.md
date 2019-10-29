@@ -5,7 +5,7 @@
 1. Minimum Path Sum: 如果要打印path, 关键: 记录每一次是从left还是up的方向来的; 最后的path是从```A[m-1][n-1]```倒着得到的; 然后再reverse打印出来;
 2. Longest Increasing Subsequence; ```dp[i][j]```记录到```grid[i][j]```的位置的LIS长度;
 3. Bomb Enemy: 四个方向; e.g. 从上面来的方向: ```if(i>0) up[i][j] = up[i-1][j]+1```;
-4. [Longest Increasing Subsequence奇淫技巧](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation)
+4. [Longest Increasing Subsequence奇淫技巧: O(NlogN)](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation)
 ---
 
 异或: 不进位的加法: 1^1 = 0;
