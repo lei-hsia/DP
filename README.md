@@ -10,3 +10,11 @@ https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-420
 [搜索dfs,permutation, combination, etc](https://drive.google.com/drive/folders/10cZgNYy6oo9ujMpaBvkrilCVo8GEJA3Phttps://drive.google.com/drive/folders/10cZgNYy6oo9ujMpaBvkrilCVo8GEJA3P)
 
 system design 问题: 设计一个elevator: https://medium.com/system-designing-interviews/design-a-elevator-system-fc5832ca0b8b
+
+---
+
+不相关的: Berkeley好课: 
+1. CS 162 OS;
+2. CS 189 ML intro;
+3. CS 170 algo optima;
+4. EECS 126 prob && sto cal
