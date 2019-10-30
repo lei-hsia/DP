@@ -171,7 +171,22 @@ e.g. Longest Palindrome Subsequence;
 1. dp: 递推; f[0], f[1], ... f[n]: 从下往上; 
 2. memo + dfs: 递归; f(n), f(n-1), ... f(1): 从上往下;
 3. 区间型dp因为是按长度dp，所以比较适合memo+dfs: 这样memo中还是按照正常的```i,j```遍历,递归的计算都是在dfs中算的;
-4. 
+
+e.g. 
+- Longest Palindrome Subsequence: 
+  1. dp; erode both ends: 3 scenarios;
+  2. memo + recursion;
+- Coins in a line III:
+  1. 区间型 + game theory;
+  2. payoff relation => ```f[i][j]```的状态转移方程
+- Scramble String:
+  1. 看最后一步: S1-T1, S2-T2 或者 S1-T2, S2-T1; 最后一步2个string的两段有没有交换;
+  2. 每一个对应的部分, enumerate所有的可能;
+  3. 4维dp降低为3维dp: 找隐含信息降维;
+- Burst Balloons:
+  1. 消去型: 一定不能顺着“消去”的思想做，因为每次消去之后左右两边的变为adjacent, 要手动变为adjacent,要记录消去的index...❌
+  2. 看最后一步: index ```k```对应的那个是最后消去的, 那么左右两边的从一开始到最后都是独立的;
+  3. 从2看出实际上是区间缩小的子问题: dp，想出对应的状态转移方程
 
 
 
