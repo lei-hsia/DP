@@ -163,7 +163,7 @@ f[i][7] = max(f[i-1][7], f[i-1][5]+x, f[i-1][3]+2x, f[i-1][1]+3x)
 2. 去尾;
 3. 去头去尾;
 
-e.g. Longest Palindrome Subsequence;
+#### e.g. Longest Palindrome Subsequence;
 
 注意: 这个题dp的顺序只能按照长度从小到大算, 并不能从```i```开始算; 因为转移方程是```f[i][j] = max{ f[i+1][j], f[i][j-1], f[i+1][j-1]+2|S[i]==S[j] }```; 如果按照i从小到大的顺序，```f[i+1][j]```还没有算出来: 有问题; 而```f[i][j]```的长度比max里面的分别多1,1,2, 所以应该按照长度算;
 
