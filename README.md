@@ -18,3 +18,5 @@ system design 问题: 设计一个elevator: https://medium.com/system-designing-
 2. CS 189 ML intro;
 3. CS 170 algo optima;
 4. EECS 126 prob && sto cal
+
+北大某个人的线段树的blog: https://kennyzhuang.gitbooks.io/algorithms-collection/content/segment_tree.html
